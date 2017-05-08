@@ -1,6 +1,6 @@
 
 class Cuboid
-  attr_reader :x, :y, :z, :l, :w, :h, :x_outer, :y_outer, :z_outer
+  attr_reader :x, :y, :z, :l, :w, :h
   #BEGIN public methods that should be your starting point
   def initialize(orA, orB, orC, a,b,c)
     @x, @y, @z = orA, orB, orC
